@@ -23,7 +23,7 @@
         return {status: 2, msg: 'Ready'};
     };
 
-    ext.get_DATA = function(location, callback) {
+    ext.get_DATA = function(callback) {
         // Make an AJAX call
         $.ajax({
               url: 'https://artisan-digital.github.io/spaceblocks2018/data.txt',
