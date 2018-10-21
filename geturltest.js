@@ -27,7 +27,7 @@
         // Make an AJAX call
         $.ajax({
               url: 'https://artisan-digital.github.io/spaceblocks2018/data.txt',
-              dataType: 'jsonp',
+              dataType: 'text',
               success: function( our_data ) {
                   callback(our_data);
               }
