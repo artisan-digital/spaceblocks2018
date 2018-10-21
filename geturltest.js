@@ -37,7 +37,7 @@
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-            ['R', 'our data is %s', 'get_DATA'],
+            ['R', 'our data', 'get_DATA'],
         ]
     };
 
