@@ -44,4 +44,9 @@
 
     // Register the extension
     ScratchExtensions.register('Our data extension', descriptor, ext);
-})({});
+}
+)
+  (
+    {
+    }
+  );
